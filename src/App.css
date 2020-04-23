@@ -1,38 +1,30 @@
-.App {
+body {
+  background-image: url("images/ocean-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box-middle {
+  margin-top: 70px;
+  border-radius: 25px;
+  height: 300px;
+  width: 400px;
+  background-color: #010c1b86;
   text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 50px;
+  border-bottom: 1px solid #ffffff;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+label {
+  color: #ffffff;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-primary {
+  background-color: #0d69f3;
+  margin-top: 20px;
 }
