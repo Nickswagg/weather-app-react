@@ -1,30 +1,125 @@
 body {
-  background-image: url("images/ocean-background.jpg");
+  background-image: url("images/bQMZSd.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .box-middle {
-  margin-top: 70px;
+  margin-top: 50px;
   border-radius: 25px;
-  height: 300px;
-  width: 400px;
+  height: auto;
   background-color: #010c1b86;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.bloc-bellow
+{
+  background-color: #010c1b86;
+  border-radius: 25px;
+  height: auto;
+}
 .title {
   color: #ffffff;
   font-size: 40px;
-  font-weight: 600;
+  font-family: 'Righteous', cursive;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 10px;
   border-bottom: 1px solid #ffffff;
 }
 label {
   color: #ffffff;
 }
-.btn-primary {
-  background-color: #0d69f3;
+.weather-button{
+  background-color: #01a7fd;
+  height: 45px;
+  width: 150px;
   margin-top: 20px;
+  border-radius: 35px;
+  font-family: 'Righteous', cursive;
+  border-style:none;
+  color:#ffffff;
+  margin-bottom: 20px;
+}
+.weather-button:hover{
+  background-color: #0485db;
+}
+#zipinput
+{
+  border-radius: 35px;
+}
+/* Results Rendering */
+#title-city
+{
+  color: #ffffff;
+  font-size:25px;
+  font-weight:300;
+  margin-top:15px;
+
+}
+#title-temp
+{
+  color: #ffffff;
+  font-size:25px;
+  font-weight:300;
+  margin-top:15px;
+}
+#title-timezone{
+  color: #ffffff;
+  font-size:25px;
+  font-weight:300;
+  margin-top:15px;
+}
+#name-city
+{
+  color: #ffffff;
+  font-size:40px;
+  font-weight:300;
+  font-family: 'Righteous', cursive;
+  margin-top:-10px;
+
+}
+#weather-city
+{
+  color: #ffffff;
+  font-size:25px;
+  font-weight:300;
+  font-family: 'Righteous', cursive;
+  margin-top:-10px;
+}
+#value-temp
+{
+  color: #ffffff;
+  font-size:60px;
+  font-weight:300;
+  font-family: 'Righteous', cursive;
+  margin-top:-20px;
+}
+#value-timezone
+{
+  color: #ffffff;
+  font-size:20px;
+  font-weight:300;
+  font-family: 'Righteous', cursive;
+  margin-top:-20px;
+}
+.align-one
+{
+  text-align:center;
+}
+.align-two
+{
+  text-align:center;
+}
+.bloc-two
+{
+  margin-top:40px;
+}
+
+@media all and (max-width: 768px) {
+	.box-middle
+	{
+		margin-left : 20px;
+    margin-right : 20px;
+	}
 }
